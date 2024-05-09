@@ -1,0 +1,6 @@
+weight=input("enter weight:")
+height=input("Enter height")
+w1=int(weight)
+h1=int(height)
+bmi=w1/(h1*h1)
+print(bmi)

@@ -1,0 +1,5 @@
+length=len("Geena P George")
+print("Yor name has " +str(length)+" characters")
+new_length=str(length)
+print(type(length))
+print(type(new_length))
