@@ -1,0 +1,13 @@
+num=[1,2,3,10,5,47,4,8,9,32,11]
+print(num)
+num.sort()
+print(num)
+num.reverse()
+print(num)
+print(min(num))
+print(max(num))
+num.append(52)
+print(num)
+num.pop()
+print(num.pop())
+print(num)
