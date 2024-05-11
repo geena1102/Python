@@ -1,0 +1,22 @@
+set1={'Ram','Shyam','Jenny'}
+set2={'Jenny','Jiya','Akash'}
+set3={'Ankur','Pradeep','Ram'}
+print("Union")
+set_union=set1.union(set2)
+print(set_union)
+print("Intersection")
+set_inter=set1.intersection(set2)
+print(set_inter)
+print("Difference")
+print(set1.difference(set2))
+print(set1.difference(set2,set3))
+print("Symmatric difference")
+print(set1.symmetric_difference(set2))
+print("Disjoint")
+print(set1.isdisjoint(set2))
+print("Superset")
+print(set1.issuperset(set2))
+print("Subset")
+print(set1.issubset(set2))
+set2.clear()
+print(set2)
